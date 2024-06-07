@@ -41,7 +41,6 @@ Installing...""")
 
     # Build and install the module
     shell.chdir("Raspberry-Pi-Installer-Scripts/i2s_mic_module")
-    shell.chdir("i2s_mic_module")
     shell.run_command("make clean")
     shell.run_command("make")
     shell.run_command("make install")
